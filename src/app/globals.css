@@ -1,0 +1,46 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-component {
+  flex: 0 0 30%;
+  border: 1px solid #777373;
+  padding: 10px;
+}
+
+.right-component {
+  flex: 1;
+  border: 1px solid #807f7f;
+  padding: 10px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.table-row {
+  display: flex;
+  flex: 1;
+  border: 1px solid #ddd; /* Optional: Add border for visualization */
+}
+
+.table-cell {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
